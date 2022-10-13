@@ -1,0 +1,15 @@
+.header__button {
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 18px 20px 18px 17px;
+  background-color: #ECEBE8;
+  font-family: 'Formular';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: calc(17/14);
+  color: #242424;
+}
