@@ -1,0 +1,16 @@
+/* Обнуление стилей и базовые шрифты проекта */
+@import url('../vendor/reset.css');
+@import url('../vendor/fonts/Formular/formular-light.css');
+@import url('../vendor/fonts/Neue-Machina/neue-machina.css');
+
+/* основные стили для страницы */
+@import url('../blocks/body/body.css');
+
+/* стили для блока header */
+@import url('../blocks/header/header.css');
+
+/* стили для блока main */
+@import url('../blocks/main/main.css');
+
+/* стили для блока footer */
+@import url('../blocks/footer/footer.css');
