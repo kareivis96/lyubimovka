@@ -1,0 +1,17 @@
+.afisha-perfomance__card {
+height: 280px;
+min-width: 449px;
+display: flex;
+flex-direction: row;
+margin: 0 29px 0 0;
+padding: 0;
+
+background-image: url(../../image/Line.svg);
+background-repeat: no-repeat;
+background-position: top right;
+}
+
+.afisha-perfomance__card:last-child {
+    margin: 0;
+    background-image: none;   
+}

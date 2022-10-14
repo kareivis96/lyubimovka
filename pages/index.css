@@ -14,3 +14,26 @@
 
 /* стили для блока footer */
 @import url('../blocks/footer/footer.css');
+
+
+/* стили блока afisha-perfomance */
+@import url('../blocks/main/afisha-perfomance/afisha-perfomance.css');
+@import url('../blocks/main/afisha-perfomance/__card/afisha-perfomance__card.css');
+@import url('../blocks/main/afisha-perfomance/__cards/afisha-perfomance__cards.css');
+@import url('../blocks/main/afisha-perfomance/__title/afisha-perfomance__title.css');
+@import url('../blocks/main/afisha-perfomance/__image/afisha-perfomance__card__image.css');
+@import url('../blocks/main/afisha-perfomance/__when/afisha-perfomance__card__when.css');
+@import url('../blocks/main/afisha-perfomance/__date/afisha-perfomance__card__when__date.css');
+@import url('../blocks/main/afisha-perfomance/__time/afisha-perfomance__card__when__time.css');
+@import url('../blocks/main/afisha-perfomance/__name/afisha-perfomance__card__name.css');
+@import url('../blocks/main/afisha-perfomance/__who/afisha-perfomance__card__who.css');
+@import url('../blocks/main/afisha-perfomance/__writer/afisha-perfomance__card__who__writer.css');
+@import url('../blocks/main/afisha-perfomance/__director/afisha-perfomance__card__who__director.css');
+@import url('../blocks/main/afisha-perfomance/__read/afisha-perfomance__card__read.css');
+@import url('../blocks/main/afisha-perfomance/__button/afisha-perfomance__card__button.css');
+@import url('../blocks/main/afisha-perfomance/__buttons/afisha-perfomance__card__buttons.css');
+@import url('../blocks/main/afisha-perfomance/__info/afisha-perfomance__card__info.css');
+@import url('../blocks/main/afisha-perfomance/_two-play/afisha-perfomance__cards_two-play.css');
+@import url('../blocks/main/afisha-perfomance/_two-play/afisha-perfomance__card_two-play.css');
+@import url('../blocks/main/afisha-perfomance/_one-play/afisha-perfomance_one-play.css');
+@import url('../blocks/main/afisha-perfomance/_one-play/afisha-perfomance__title_one-play.css');

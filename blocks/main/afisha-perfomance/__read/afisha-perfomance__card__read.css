@@ -1,0 +1,12 @@
+.afisha-perfomance__card__read {
+    max-width: 150px;
+    margin: 20px 0 0 0;
+    padding: 0;
+
+    font-family: 'FormularLight';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #242424;
+}

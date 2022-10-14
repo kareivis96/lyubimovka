@@ -1,0 +1,6 @@
+.afisha-perfomance__card__buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: left;
+}
