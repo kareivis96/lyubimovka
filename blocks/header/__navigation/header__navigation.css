@@ -1,6 +1,26 @@
 .header__navigation {
+  flex: 1;
   display: flex;
+  justify-content: space-evenly;
+  gap: 5px;
+  box-sizing: border-box;
+  max-width: 69.1%;
   margin: 0;
-  padding: 0;
+  padding: 5px;
   list-style: none;
+}
+
+@media (max-width: 1050px) {
+  .header__navigation {
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 720px) {
+  .header__navigation {
+    grid-area: nav;
+    max-width: none;
+  }
 }

@@ -1,4 +1,13 @@
 .header__button-img {
   width: 25px;
   height: 25px;
+  background-image: url('../images/plus.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: background-image .3s ease;
+}
+
+.header__button:hover .header__button-img {
+  background-image: url('../images/plus-white.png');
 }
