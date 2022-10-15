@@ -1,0 +1,28 @@
+.afisha-perfomance__card__link {
+text-decoration: none;
+font-family: 'FormularLight';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 14px;
+color: #242424;
+text-align: left;
+vertical-align: middle;
+}
+
+/* .afisha-perfomance__card__link:hover {
+    color: linear-gradient(90deg, #E5E5E5, #242424);
+    animation: gradient 3s ease-in forwards;
+}
+
+@keyframes gradient {
+    0% {
+        color: 200% 0;
+    }
+    50% {
+        color: 100% 1000%;
+    }
+    100% {
+        color: 0 200%;
+    }
+} */

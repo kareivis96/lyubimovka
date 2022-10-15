@@ -16,6 +16,12 @@
 @import url('../blocks/footer/footer.css');
 
 
+/* стили блока gallery */
+@import url('../blocks/main/gallery/gallery.css');
+@import url('../blocks/main/gallery/__grid/gallery__grid.css');
+@import url('../blocks/main/gallery/__image/gallery__image.css');
+@import url('../blocks/main/gallery/__title/gallery__title.css');
+
 /* стили блока afisha-perfomance */
 @import url('../blocks/main/afisha-perfomance/afisha-perfomance.css');
 @import url('../blocks/main/afisha-perfomance/__card/afisha-perfomance__card.css');
@@ -33,7 +39,9 @@
 @import url('../blocks/main/afisha-perfomance/__button/afisha-perfomance__card__button.css');
 @import url('../blocks/main/afisha-perfomance/__buttons/afisha-perfomance__card__buttons.css');
 @import url('../blocks/main/afisha-perfomance/__info/afisha-perfomance__card__info.css');
+@import url('../blocks/main/afisha-perfomance/__link/afisha__perfomance__card__link.css');
 @import url('../blocks/main/afisha-perfomance/_two-play/afisha-perfomance__cards_two-play.css');
 @import url('../blocks/main/afisha-perfomance/_two-play/afisha-perfomance__card_two-play.css');
 @import url('../blocks/main/afisha-perfomance/_one-play/afisha-perfomance_one-play.css');
 @import url('../blocks/main/afisha-perfomance/_one-play/afisha-perfomance__title_one-play.css');
+@import url('../blocks/main/afisha-perfomance/_one-play/afisha-perfomance__card_one-play.css');

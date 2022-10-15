@@ -2,22 +2,28 @@
 height: 32px;
 width: 154px;
 margin: 16px 0 0 0;
-padding: 0 0 0 29px;
+padding: 0 0 0 28px;
+text-align: left;
 background-color: #ECEBE8;
-background-image: url(../../image/Arrow.svg);
+background-image: url(../../afisha-perfomance/images/Arrow.svg);
 background-repeat: no-repeat;
 background-position: left;
 
-font-family: 'FormularLight';
-font-style: normal;
-font-weight: 300;
-font-size: 16px;
-line-height: 14px;
-color: #242424;
-text-align: left;
-vertical-align: middle;
 
 border: 1px solid #242424;
 border-top: none;
 border-right: none;
+}
+
+
+@media screen and (max-width: 1020px) {
+    .afisha-perfomance__card__button {
+    margin: 40px 27px 32px 0;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .afisha-perfomance__card__button:last-child {
+    margin-right: 0;
+    }
 }

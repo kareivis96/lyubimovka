@@ -1,3 +1,12 @@
 .afisha-perfomance__cards_two-play {
-    margin: 75px 0 0 241px;
+    margin: 80px auto 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1020px) {
+    .afisha-perfomance__cards_two-play {
+        flex-direction: column;
+        margin: 32px 14px 0 24px;
+      
+    }
 }
