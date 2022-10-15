@@ -1,0 +1,13 @@
+.menu-button_type_active .menu-button__element {
+  height: 0;
+}
+
+.menu-button_type_active .menu-button__element::before {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+.menu-button_type_active .menu-button__element::after {
+  transform: rotate(-45deg);
+  top: 0;
+}
