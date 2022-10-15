@@ -1,0 +1,14 @@
+.intro__picture {
+    grid-area: picture;
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
+
+@media (max-width:768px) {
+    .intro__picture {
+        height: 100%;
+        object-position: center;
+        padding-top: 36px;
+    } 
+}

@@ -1,0 +1,67 @@
+.intro__button {
+    grid-area: button;
+    margin: auto auto 0 auto;
+    padding: 0;
+    padding-left: 10px;
+    width: 120px;
+    height: 32px;
+    font-family: 'FormularLight';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 88%;
+    text-align: left;
+    color: #242424;
+    border-top: none;
+    border-left: none;
+    border-right: solid 1px #383736;;
+    border-bottom: solid 1px #383736;;
+    position: relative;
+    background: none;
+    cursor: pointer;
+    z-index: 1;
+}
+
+/* псевдоэлемент для стрелочки на кнопке */
+.intro__button::after {
+    content: ' '; 
+    position: absolute ; 
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    background: url('../images/intro-button-arrow.svg') no-repeat; 
+    width: 25px;
+    height: 25px;
+}
+
+.intro__button:hover {
+    color: #ECEBE8;
+}
+
+/* псевдоэлемент для стрелочки на кнопке */
+.intro__button:hover::after {
+    background: url('../images/intro-button-arrow-hover.svg') no-repeat; 
+}
+
+.intro__button:before {
+    content: "";
+    position: absolute;
+    background: #383736;
+	bottom: -1px;
+	right: -1px;
+	width: 0;
+	height: 101%;
+    transition: all 0.2s ease-in;
+    z-index: -1;
+}
+
+.intro__button:hover:before {
+    width: 101%;
+}
+
+
+@media (max-width:768px) {
+    .intro__button {
+        display: none;
+    } 
+} 

@@ -14,3 +14,16 @@
 
 /* стили для блока footer */
 @import url('../blocks/footer/footer.css');
+
+/* стили для блока intro */
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/intro/__button/intro__button.css');
+@import url('../blocks/intro/__heading/intro__heading.css');
+@import url('../blocks/intro/__subheading/inrto__subheading.css');
+@import url('../blocks/intro/__picture/intro__picture.css');
+
+/* стили для блока about */
+@import url('../blocks/about/about.css');
+@import url('../blocks/about/__heading/about__heading.css');
+@import url('../blocks/about/__text/about__text.css');
+@import url('../blocks/about/__container/about__container.css');

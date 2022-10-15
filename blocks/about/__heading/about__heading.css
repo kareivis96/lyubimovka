@@ -1,0 +1,13 @@
+.about__heading {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: -0.01em;
+}
+
+@media (max-width:768px) {
+    .about__text {
+        font-size: 40px;
+    } 
+}
