@@ -1,0 +1,11 @@
+.persons {
+  margin: 0 auto;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+@media screen and (max-width:769px) {
+  .persons {
+    padding: 0 5.79% 0;
+  }
+}

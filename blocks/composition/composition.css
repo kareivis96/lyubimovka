@@ -1,0 +1,10 @@
+.composition {
+  padding: 0 4.16% 0;
+  overflow: hidden;
+}
+
+@media screen and (max-width:769px) {
+  .composition {
+    padding: 0 5.79% 0;
+  }
+}

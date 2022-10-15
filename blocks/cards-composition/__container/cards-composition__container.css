@@ -1,0 +1,9 @@
+.cards-composition__container {
+  min-width: 240px;
+}
+
+@media screen and (max-width:769px) {
+  .cards-composition__container {
+    min-width: 244px;
+  }
+}

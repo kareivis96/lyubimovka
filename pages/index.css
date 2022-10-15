@@ -14,3 +14,29 @@
 
 /* стили для блока footer */
 @import url('../blocks/footer/footer.css');
+
+/* стили для блока title */
+@import url('../blocks/title/title.css');
+@import url('../blocks/title/_place/title_place_composition.css');
+@import url('../blocks/title/_place/title_place_persons.css');
+
+/* стили для блока persons */
+@import url('../blocks/persons/persons.css');
+
+/* стили для блока cards-persons */
+@import url('../blocks/cards-persons/cards-persons.css');
+@import url('../blocks/cards-persons/__artistic-role/cards-persons__artistic-role.css');
+@import url('../blocks/cards-persons/__container/cards-persons__container.css');
+@import url('../blocks/cards-persons/__img/cards-persons__img.css');
+@import url('../blocks/cards-persons/__name/cards-persons__name.css');
+
+/* стили для блока composition */
+@import url('../blocks/composition/composition.css');
+
+/* стили для блока cards-composition */
+@import url('../blocks/cards-composition/cards-composition.css');
+@import url('../blocks/cards-composition/__author/cards-composition__author.css');
+@import url('../blocks/cards-composition/__background/cards-composition__background.css');
+@import url('../blocks/cards-composition/__container/cards-composition__container.css');
+@import url('../blocks/cards-composition/__location/cards-composition__locadion.css');
+@import url('../blocks/cards-composition/__title/cards-composition__title.css');
