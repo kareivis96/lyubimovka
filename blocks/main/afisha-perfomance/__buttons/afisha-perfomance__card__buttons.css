@@ -6,7 +6,7 @@
     position: relative;
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 768px) {
     .afisha-perfomance__card__buttons {
         position: absolute;
         left: 24px;

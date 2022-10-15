@@ -2,10 +2,3 @@
     min-width: 479px;
     padding: 0 0 0 59px;
 }
-
-@media screen and (max-width: 1020px) {
-    .afisha-perfomance__card_two-play {
-    padding: 0;
-    min-width: 364px;
-    }
-}
