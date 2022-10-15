@@ -3,11 +3,6 @@
   margin: 0 auto;
 }
 
-.composition {
-  padding: 0 4.16% 0;
-  overflow: hidden;
-}
-
 .title {
   font-weight: 400;
   font-size: 40px;
@@ -17,11 +12,46 @@
   margin: 0;
 }
 
+@media screen and (max-width:769px) {
+  .title {
+    font-size: 28px;
+    line-height: 32px;
+  }
+}
+
+
+.composition {
+  padding: 0 4.16% 0;
+  overflow: hidden;
+}
+
+@media screen and (max-width:769px) {
+  .composition {
+    padding: 0 5.79% 0;
+  }
+}
+
+
 .title_place_composition {
   padding-left: 22.87%;
   max-width: 358px;
   margin-bottom: 48px;
 }
+
+
+
+
+@media screen and (max-width:769px) {
+  .title_place_composition {
+    padding: 0;
+    max-width: 369px;
+    margin-bottom: 32px;
+  }
+}
+
+
+
+
 
 .cards {
   display: flex;
@@ -35,11 +65,25 @@
   min-width: 240px;
 }
 
-.cards__background {
+@media screen and (max-width:769px) {
+  .cards__container {
+    min-width: 244px;
+  }
+}
 
+.cards__background {
   min-height: 300px;
   background-color: #B7C09D;
 }
+
+@media screen and (max-width:769px) {
+  .cards__background {
+    min-height: 342px;
+
+  }
+}
+
+
 
 .cards__title {
   font-weight: 400;
@@ -71,12 +115,29 @@
 .persons {
   margin: 0 auto;
   max-width: 100%;
+  overflow: hidden;
 }
+
+
+@media screen and (max-width:769px) {
+  .persons {
+    padding: 0 5.79% 0;
+  }
+}
+
 
 .title_place_persons {
   max-width: 358px;
   padding-left: 25.13%;
   margin: 123px 0 58px;
+}
+
+@media screen and (max-width:769px) {
+  .title_place_persons {
+    max-width: 366 px;
+    padding: 0;
+    margin: 100px 0 24px;
+  }
 }
 
 .cards-persons {
@@ -86,7 +147,21 @@
   width: 210px;
   justify-content: center;
   margin: 0 auto;
+  padding: 0;
 }
+
+
+@media screen and (max-width:769px) {
+  .cards-persons {
+    width: 213px;
+    justify-content: flex-start;
+    margin: 0;
+  }
+}
+
+
+
+
 
 .cards-persons__container {
   display: flex;
@@ -95,6 +170,13 @@
 
 .cards-persons__img {
   width: 210px;
+}
+
+@media screen and (max-width:769px) {
+  .cards-persons__img {
+    width: 213px;
+    filter: grayscale(100%);
+  }
 }
 
 .cards-persons__name {
