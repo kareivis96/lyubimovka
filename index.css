@@ -1,0 +1,115 @@
+.body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.composition {
+  padding: 0 4.16% 0;
+  overflow: hidden;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.01em;
+  color: #242424;
+  margin: 0;
+}
+
+.title_place_composition {
+  padding-left: 22.87%;
+  max-width: 358px;
+  margin-bottom: 48px;
+}
+
+.cards {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards__container {
+  min-width: 240px;
+}
+
+.cards__background {
+
+  min-height: 300px;
+  background-color: #B7C09D;
+}
+
+.cards__title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  padding: 24px 0 0;
+  margin: 0 0 0 24px;
+}
+
+.cards__author {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  max-width: 190px;
+  margin: 16px 0 0;
+}
+
+.cards__locadion {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 4px 0 0;
+  max-width: 155px;
+}
+
+/*  ---------------------------------------------*/
+.persons {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.title_place_persons {
+  max-width: 358px;
+  padding-left: 25.13%;
+  margin: 123px 0 58px;
+}
+
+.cards-persons {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  width: 210px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.cards-persons__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards-persons__img {
+  width: 210px;
+}
+
+.cards-persons__name {
+  max-width: 190px;
+  margin: 16px 0 8px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+}
+
+.cards-persons__artistic-role {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  max-width: 177px;
+  align-self: flex-end;
+}
