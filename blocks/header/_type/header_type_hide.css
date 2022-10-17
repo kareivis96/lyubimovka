@@ -1,0 +1,7 @@
+@media (max-width: 720px) {
+  .header_type_hide {
+    opacity: 0;
+    max-height: 0;
+    transform: scaleY(0);
+  }
+}

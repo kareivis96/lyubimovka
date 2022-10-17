@@ -1,0 +1,42 @@
+.header__button {
+  position: relative;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  width: 163px;
+  height: 61px;
+  padding: 18px 20px 18px 17px;
+  background-color: #ECEBE8;
+  font-family: 'Formular';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: calc(17/14);
+  color: #242424;
+  transition: color .3s ease, background-color .3s ease;
+}
+
+.header__button:hover {
+  background-color: #242424;
+  color: #ECEBE8;
+}
+
+.header__button::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 1px;
+  height: 82%;
+  background-color: #242424;
+}
+
+@media (max-width: 720px) {
+  .header__button {
+    grid-area: btn;
+    justify-self: flex-end;
+    border-bottom: 1px solid #242424;
+  }
+}

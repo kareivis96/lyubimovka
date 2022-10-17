@@ -1,0 +1,12 @@
+.about__container {
+    max-width: 569px;
+    margin-left: 25%;
+}
+
+@media (max-width:768px) {
+    .about__container {
+        max-width: 366px;
+        margin: 56px auto 72px auto;
+        margin-top: 56px;
+    } 
+}
