@@ -1,0 +1,24 @@
+.afisha-perfomance__cards {
+    display: flex;
+    flex-direction: row;
+    margin: 75px auto 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    align-items: center;
+}
+
+@media screen and (max-width: 1400px) {
+    .afisha-perfomance__cards {
+        flex-wrap: wrap;
+
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .afisha-perfomance__cards {
+        flex-direction: column;
+        margin: 32px auto 0;
+
+    }
+}

@@ -1,0 +1,28 @@
+.gallery__title {
+    height: auto;
+    width: 568px;
+    margin: 145px 0 42px 362px;
+    padding: 0;
+
+    font-family: 'Neue Machina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+@media screen and (max-width: 1100px) {
+    .gallery__title {
+        margin: 100px 21px 32px 150px;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .gallery__title {
+        width: 369px;
+        margin: 100px 21px 22px 24px;
+        font-size: 28px;
+        line-height: 32px;
+    }
+}
