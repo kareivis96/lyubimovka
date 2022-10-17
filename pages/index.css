@@ -29,7 +29,18 @@
 /* стили для блока footer */
 @import url('../blocks/footer/footer.css');
 
-<<<<<<< HEAD
+/* стили для блока intro */
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/intro/__button/intro__button.css');
+@import url('../blocks/intro/__heading/intro__heading.css');
+@import url('../blocks/intro/__subheading/inrto__subheading.css');
+@import url('../blocks/intro/__picture/intro__picture.css');
+
+/* стили для блока about */
+@import url('../blocks/about/about.css');
+@import url('../blocks/about/__heading/about__heading.css');
+@import url('../blocks/about/__text/about__text.css');
+@import url('../blocks/about/__container/about__container.css');
 
 /* стили блока gallery */
 @import url('../blocks/main/gallery/gallery.css');
@@ -61,17 +72,3 @@
 @import url('../blocks/main/afisha-perfomance/_one-play/afisha-perfomance_one-play.css');
 @import url('../blocks/main/afisha-perfomance/_one-play/afisha-perfomance__title_one-play.css');
 @import url('../blocks/main/afisha-perfomance/_one-play/afisha-perfomance__card_one-play.css');
-=======
-/* стили для блока intro */
-@import url('../blocks/intro/intro.css');
-@import url('../blocks/intro/__button/intro__button.css');
-@import url('../blocks/intro/__heading/intro__heading.css');
-@import url('../blocks/intro/__subheading/inrto__subheading.css');
-@import url('../blocks/intro/__picture/intro__picture.css');
-
-/* стили для блока about */
-@import url('../blocks/about/about.css');
-@import url('../blocks/about/__heading/about__heading.css');
-@import url('../blocks/about/__text/about__text.css');
-@import url('../blocks/about/__container/about__container.css');
->>>>>>> develop
