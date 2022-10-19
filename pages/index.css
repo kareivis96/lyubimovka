@@ -70,3 +70,12 @@
 @import url('../blocks/main/afisha-perfomance/_one-play/afisha-perfomance_one-play.css');
 @import url('../blocks/main/afisha-perfomance/_one-play/afisha-perfomance__title_one-play.css');
 @import url('../blocks/main/afisha-perfomance/_one-play/afisha-perfomance__card_one-play.css');
+
+/* стили блока cooperation */
+@import url('../blocks/main/cooperation/cooperation.css');
+@import url('../blocks/main/cooperation/__info/cooperation__info.css');
+@import url('../blocks/main/cooperation/__title/cooperation__title.css');
+@import url('../blocks/main/cooperation/__subtitle/cooperation__subtitle.css');
+@import url('../blocks/main/cooperation/__icon-star/cooperation__icon-star.css');
+@import url('../blocks/main/cooperation/__text/cooperation__text.css');
+@import url('../blocks/main/cooperation/__link/cooperation__link.css');
