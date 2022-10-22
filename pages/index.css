@@ -72,3 +72,25 @@
 @import url('../blocks/main/afisha-perfomance/_one-play/afisha-perfomance_one-play.css');
 @import url('../blocks/main/afisha-perfomance/_one-play/afisha-perfomance__title_one-play.css');
 @import url('../blocks/main/afisha-perfomance/_one-play/afisha-perfomance__card_one-play.css');
+
+/* стили блока footer */
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__lyubimovka-logo/footer__lyubimovka-logo.css');
+@import url('../blocks/footer/__partners/footer__partners.css');
+@import url('../blocks/footer/__partners-logo/footer__partners-logo.css');
+@import url('../blocks/footer/__partners-text/footer__text-partners.css');
+@import url('../blocks/footer/__adress/footer__adress.css');
+@import url('../blocks/footer/__adress-full/footer__adress-full.css');
+@import url('../blocks/footer/__adress-name/footer__adress-name.css');
+@import url('../blocks/footer/__copyrights/footer__copyrights.css');
+@import url('../blocks/footer/__design/footer__design.css');
+@import url('../blocks/footer/__design-icon/footer__design-icon.css');
+@import url('../blocks/footer/__design-text/footer__design-text.css');
+@import url('../blocks/footer/__menu/footer__menu.css');
+@import url('../blocks/footer/__menu/_type/footer__menu_type_first.css');
+@import url('../blocks/footer/__menu/_type/footer__menu_type_second.css');
+@import url('../blocks/footer/__menu/_type/footer__menu_type_third.css');
+@import url('../blocks/footer/__menu-item/footer__menu-item.css');
+@import url('../blocks/footer/__menu-link/footer__menu-link.css');
+@import url('../blocks/footer/__policy/footer__policy.css');
+@import url('../blocks/footer/__students/footer__students.css');

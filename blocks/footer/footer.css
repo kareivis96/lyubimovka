@@ -1,0 +1,32 @@
+.footer {
+    padding-top: 42px;
+    display: grid;
+    min-height: 450px;
+    width: 100%;
+    grid-template-rows: 20% 60% 20%;
+    grid-template-columns: 15% 12.5% 27.5% 12.5% 12.5% 20%;
+    grid-template-areas: 
+    "logo partners partners partners . ."
+    ". adress . menu1 menu2 menu3"
+    ". copyrights policy design2 design1 students";
+}
+
+@media (max-width:767px) {
+    .footer {
+        min-height: 1370px;
+        margin-top: 74px; 
+        /* раздел выше наезжает, маргин это заглушка */
+        grid-template-columns: 25px 34px 10fr 13fr;
+        grid-template-rows: 8% 9% 16% 24% 22% 3% 6% 5% 7%;
+        grid-template-areas: 
+        ". . logo ."
+        ". . adress adress"
+        ". . menu1 menu2"
+        ". . menu3 menu3"
+        ". . partners partners"
+        ". copyrights copyrights ."
+        ". policy policy . "
+        ". design design . "
+        ". students students . "
+    }
+}

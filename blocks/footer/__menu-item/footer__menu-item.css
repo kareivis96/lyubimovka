@@ -1,0 +1,14 @@
+.footer__menu-item {
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.21;
+}
+
+@media (max-width:767px) {
+    .footer__adress-full {
+        font-size: 18px;
+        line-height: 1.28;
+    }
+}

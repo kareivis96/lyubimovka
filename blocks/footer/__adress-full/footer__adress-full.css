@@ -1,0 +1,16 @@
+.footer__adress-full {
+    margin: 0;
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.21;
+}
+
+@media (max-width:767px) {
+    .footer__adress-full {
+        font-size: 16px;
+        line-height: 1.36;
+        opacity: 0.6;
+    }
+}

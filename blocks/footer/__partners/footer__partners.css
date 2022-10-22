@@ -1,0 +1,10 @@
+.footer__partners {
+    grid-area: partners;
+    display: flex;
+}
+
+@media (max-width:767px) {
+    .footer__partners {
+        flex-direction: column;
+    }
+}
