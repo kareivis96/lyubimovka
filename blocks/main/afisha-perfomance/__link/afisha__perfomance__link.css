@@ -1,0 +1,14 @@
+.afisha-perfomance__link {
+    background-color: #ECEBE8;
+    background-image: url(../../afisha-perfomance/images/Arrow.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+
+}
+
+.afisha-perfomance__link:hover {
+    color: #E5E5E5;
+    background-color: #242424;
+    backdrop-filter: #E5E5E5;
+} 

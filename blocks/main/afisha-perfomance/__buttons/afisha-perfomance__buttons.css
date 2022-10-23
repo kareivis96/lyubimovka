@@ -1,4 +1,4 @@
-.afisha-perfomance__card__buttons {
+.afisha-perfomance__buttons {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -6,9 +6,10 @@
     position: relative;
 }
 
-@media screen and (max-width: 768px) {
+ @media screen and (max-width: 768px) {
     .afisha-perfomance__card__buttons {
+        flex-wrap: nowrap;
         position: absolute;
         left: 24px;
     }
-}
+} 

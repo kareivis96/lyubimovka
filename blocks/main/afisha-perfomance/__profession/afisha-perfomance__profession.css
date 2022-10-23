@@ -1,11 +1,11 @@
-.afisha-perfomance__card__who__director {
+.afisha-perfomance__profession {
     margin: 0;
     padding: 0;
     padding-left: 30px;
 }
 
 @media screen and (max-width: 1100px) {
-    .afisha-perfomance__card__who__director {
+    .afisha-perfomance__profession {
         padding: 0;
     }
 }

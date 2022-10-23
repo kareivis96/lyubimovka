@@ -1,0 +1,21 @@
+.cooperation__title {
+    width: 516px;
+    height: auto;
+    display: flex;
+    padding: 0;
+    margin: 1px 0 0 27px;
+
+    font-family: 'Neue Machina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 38px;
+}
+
+@media screen and (max-width: 768px) {
+    .cooperation__title {
+        width: 335px;
+        font-size: 28px;
+        line-height: 32px;
+    }
+}
