@@ -1,0 +1,17 @@
+.cards-persons {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  width: 210px;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+@media screen and (max-width:769px) {
+  .cards-persons {
+    width: 213px;
+    justify-content: flex-start;
+    margin: 0;
+  }
+}

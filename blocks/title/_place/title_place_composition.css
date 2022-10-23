@@ -1,0 +1,13 @@
+.title_place_composition {
+  padding-left: 22.87%;
+  max-width: 358px;
+  margin-bottom: 48px;
+}
+
+@media screen and (max-width:769px) {
+  .title_place_composition {
+    padding: 0;
+    max-width: 369px;
+    margin-bottom: 32px;
+  }
+}

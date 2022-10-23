@@ -1,0 +1,10 @@
+.cards-persons__img {
+  width: 210px;
+}
+
+@media screen and (max-width:769px) {
+  .cards-persons__img {
+    width: 213px;
+    filter: grayscale(100%);
+  }
+}

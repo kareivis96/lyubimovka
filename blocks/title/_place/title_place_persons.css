@@ -1,0 +1,13 @@
+.title_place_persons {
+  max-width: 358px;
+  padding-left: 25.13%;
+  margin: 123px 0 58px;
+}
+
+@media screen and (max-width:769px) {
+  .title_place_persons {
+    max-width: 366 px;
+    padding: 0;
+    margin: 100px 0 24px;
+  }
+}
