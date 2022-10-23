@@ -1,0 +1,16 @@
+.afisha-perfomance__card__when {
+    width: 198px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    text-align: center;
+
+    font-family: 'FormularLight';
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    color: #242424;
+}

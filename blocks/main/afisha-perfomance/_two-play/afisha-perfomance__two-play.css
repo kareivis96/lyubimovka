@@ -1,0 +1,9 @@
+.afisha-perfomance__two-play {
+    
+}
+
+@media screen and (max-width: 1100px) {
+    .afisha-perfomance__two-play {
+        display: none;
+    }
+}

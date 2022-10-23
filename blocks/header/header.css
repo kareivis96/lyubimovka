@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(36, 36, 36, 1);
+  max-height: 500px;
+  transform: scaleY(1);
+  transform-origin: top;
+  opacity: 1;
+  transition: opacity .3s ease, min-height .3s ease, transform .3s ease;
+}
+
+@media (max-width: 720px) {
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    }
+}

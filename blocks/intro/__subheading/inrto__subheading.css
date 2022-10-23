@@ -1,0 +1,19 @@
+.intro__subheading {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: -0.01em;
+    margin: 0;
+    grid-area: subheading;
+    max-width: 420px;
+}
+
+@media (max-width:768px) {
+    .intro__subheading {
+        font-size: 20px;
+        line-height: 1.2;
+        padding-left: 62px;
+        margin: auto auto 0 auto;
+        max-width: 304px;
+    } 
+}

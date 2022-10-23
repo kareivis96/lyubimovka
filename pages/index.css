@@ -6,14 +6,72 @@
 /* основные стили для страницы */
 @import url('../blocks/body/body.css');
 
+/* стили для блока menu-button */
+@import url('../blocks/menu-button/menu-button.css');
+@import url('../blocks/menu-button/_type/menu-button_type_active.css');
+@import url('../blocks/menu-button/__element/menu-button__element.css');
+
 /* стили для блока header */
 @import url('../blocks/header/header.css');
+@import url('../blocks/header/_type/header_type_hide.css');
+@import url('../blocks/header/__logo/header__logo.css');
+@import url('../blocks/header/__content/header__content.css');
+@import url('../blocks/header/__navigation/header__navigation.css');
+@import url('../blocks/header/__social/header__social.css');
+@import url('../blocks/header/__link/header__link.css');
+@import url('../blocks/header/__link/_type/header__link_type_navigation.css');
+@import url('../blocks/header/__button-img/header__button-img.css');
+@import url('../blocks/header/__button/header__button.css');
 
 /* стили для блока main */
 @import url('../blocks/main/main.css');
 
 /* стили для блока footer */
 @import url('../blocks/footer/footer.css');
+
+/* стили для блока intro */
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/intro/__button/intro__button.css');
+@import url('../blocks/intro/__heading/intro__heading.css');
+@import url('../blocks/intro/__subheading/inrto__subheading.css');
+@import url('../blocks/intro/__picture/intro__picture.css');
+
+/* стили для блока about */
+@import url('../blocks/about/about.css');
+@import url('../blocks/about/__heading/about__heading.css');
+@import url('../blocks/about/__text/about__text.css');
+@import url('../blocks/about/__container/about__container.css');
+
+/* стили блока gallery */
+@import url('../blocks/main/gallery/gallery.css');
+@import url('../blocks/main/gallery/__grid/gallery__grid.css');
+@import url('../blocks/main/gallery/__image/gallery__image.css');
+@import url('../blocks/main/gallery/__title/gallery__title.css');
+
+/* стили блока afisha-perfomance */
+@import url('../blocks/main/afisha-perfomance/afisha-perfomance.css');
+@import url('../blocks/main/afisha-perfomance/__card/afisha-perfomance__card.css');
+@import url('../blocks/main/afisha-perfomance/__cards/afisha-perfomance__cards.css');
+@import url('../blocks/main/afisha-perfomance/__title/afisha-perfomance__title.css');
+@import url('../blocks/main/afisha-perfomance/__image/afisha-perfomance__card__image.css');
+@import url('../blocks/main/afisha-perfomance/__when/afisha-perfomance__card__when.css');
+@import url('../blocks/main/afisha-perfomance/__date/afisha-perfomance__card__when__date.css');
+@import url('../blocks/main/afisha-perfomance/__time/afisha-perfomance__card__when__time.css');
+@import url('../blocks/main/afisha-perfomance/__name/afisha-perfomance__card__name.css');
+@import url('../blocks/main/afisha-perfomance/__who/afisha-perfomance__card__who.css');
+@import url('../blocks/main/afisha-perfomance/__writer/afisha-perfomance__card__who__writer.css');
+@import url('../blocks/main/afisha-perfomance/__director/afisha-perfomance__card__who__director.css');
+@import url('../blocks/main/afisha-perfomance/__read/afisha-perfomance__card__read.css');
+@import url('../blocks/main/afisha-perfomance/__button/afisha-perfomance__card__button.css');
+@import url('../blocks/main/afisha-perfomance/__buttons/afisha-perfomance__card__buttons.css');
+@import url('../blocks/main/afisha-perfomance/__info/afisha-perfomance__card__info.css');
+@import url('../blocks/main/afisha-perfomance/__link/afisha__perfomance__card__link.css');
+@import url('../blocks/main/afisha-perfomance/_two-play/afisha-perfomance__two-play.css');
+@import url('../blocks/main/afisha-perfomance/_two-play/afisha-perfomance__cards_two-play.css');
+@import url('../blocks/main/afisha-perfomance/_two-play/afisha-perfomance__card_two-play.css');
+@import url('../blocks/main/afisha-perfomance/_one-play/afisha-perfomance_one-play.css');
+@import url('../blocks/main/afisha-perfomance/_one-play/afisha-perfomance__title_one-play.css');
+@import url('../blocks/main/afisha-perfomance/_one-play/afisha-perfomance__card_one-play.css');
 
 /* стили для блока title */
 @import url('../blocks/title/title.css');

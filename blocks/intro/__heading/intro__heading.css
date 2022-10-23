@@ -1,0 +1,18 @@
+.intro__heading {
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 0.97;
+    letter-spacing: -0.01em;
+    margin: 0;
+    grid-area: heading;
+    max-width: 420px;
+}
+
+@media (max-width:768px) {
+    .intro__heading {
+        width: 366px;
+        font-size: 40px;
+        line-height: 1;
+        margin: auto auto 0 auto;
+    } 
+}

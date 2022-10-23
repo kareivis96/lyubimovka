@@ -1,0 +1,23 @@
+.intro {
+    min-height: 708px;
+    background-color: #E5E5E5;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 12.5% 37.5% 50%;
+    grid-template-rows: 10% 28% 62%;
+    grid-template-areas:
+    "button . ."
+    ". . heading"
+    ". subheading picture"
+}
+
+@media (max-width:768px) {
+    .intro {
+        grid-template-columns: 100%;
+        grid-template-rows: 100px 166px 486px;
+        grid-template-areas:
+        "heading"
+        "subheading"
+        "picture"
+    } 
+}

@@ -1,0 +1,31 @@
+.menu-button__element {
+  position: absolute;
+  top: 35px;
+  left: 26px;
+  margin: 0;
+  width: 20px;
+  height: 2px;
+  background: #ECEBE8;
+}
+
+.menu-button__element::before {
+  content: '';
+  position: absolute;
+  top: -6px;
+  left: 0;
+  width: 20px;
+  height: 2px;
+  background: #ECEBE8;
+  transition: transform .3s ease, top .3s linear;
+}
+
+.menu-button__element::after {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: 0;
+  width: 20px;
+  height: 2px;
+  background: #ECEBE8;
+  transition: transform .3s ease, top .3s linear;
+}

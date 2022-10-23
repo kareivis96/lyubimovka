@@ -1,0 +1,31 @@
+.afisha-perfomance__card {
+    height: 280px;
+    min-width: 449px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0 0 0 30px;
+
+    background-image: url(../../image/Line.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.afisha-perfomance__card:last-child {
+    background-image: none;
+}
+
+@media screen and (max-width: 1400px) {
+    .afisha-perfomance__card {
+        padding-bottom: 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .afisha-perfomance__card {
+        /* background-image: none;
+    border-bottom: 1px solid black; */
+        padding: 0 0 32px 30px;
+        min-width: 364px;
+    }
+}
