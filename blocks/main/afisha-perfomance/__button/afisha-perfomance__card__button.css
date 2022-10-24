@@ -1,0 +1,47 @@
+.afisha-perfomance__card__button {
+    height: 32px;
+    width: 154px;
+    margin: 16px 0 0 0;
+    padding: 0 0 0 28px;
+    text-align: left;
+    background-color: #ECEBE8;
+    background-image: url(../../afisha-perfomance/images/Arrow.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+
+
+
+    border: 1px solid #242424;
+    border-top: none;
+    border-right: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    .afisha-perfomance__card__button {
+        margin: 40px 27px 32px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .afisha-perfomance__card__button:last-child {
+        margin-right: 0;
+    }
+}
+
+/* .afisha-perfomance__card__button:hover {
+    color: #242424;
+    animation: gradient 3s ease-in forwards;
+}
+
+@keyframes gradient {
+    0% {
+        color: 200% 0;
+    }
+    50% {
+        color: 100% 1000%;
+    }
+    100% {
+        color: 0 200%;
+    }
+}  */
