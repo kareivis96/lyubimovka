@@ -1,0 +1,11 @@
+.cards-composition__background {
+  min-height: 300px;
+  background-color: #B7C09D;
+}
+
+@media screen and (max-width:769px) {
+  .cards-composition__background {
+    min-height: 342px;
+
+  }
+}
