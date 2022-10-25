@@ -1,0 +1,12 @@
+.footer__lyubimovka-logo {
+    grid-area: logo;
+    padding-left: 32px;
+    width: 93px;
+    height: 80px;
+}
+
+@media (max-width:1270px) {
+    .footer__lyubimovka-logo {
+        padding-left: 0;
+    }
+}

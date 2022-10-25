@@ -1,0 +1,5 @@
+@media (max-width:767px) {
+    .footer__partners-logo_type_partner4 {
+        grid-area: partner4;
+    }
+}

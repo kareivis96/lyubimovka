@@ -1,0 +1,16 @@
+.footer__partners-text {
+    display: inline;
+    font-family: 'Formular';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.21;
+    margin: 0;
+    max-width: 113px;
+}
+
+@media (max-width:767px) {
+    .footer__partners-text {
+        max-width: none;
+        text-align: center;
+    }
+}

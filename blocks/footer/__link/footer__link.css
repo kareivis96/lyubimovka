@@ -1,0 +1,11 @@
+.footer__link {
+    text-decoration: none;
+    color: #242424;
+}
+
+@media (max-width: 767px) {
+    .footer__link {
+        text-decoration: underline;
+    }
+    
+}

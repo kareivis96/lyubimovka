@@ -1,0 +1,23 @@
+.footer__policy {
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.21;
+    grid-area: policy;
+    margin: 0;
+    padding-left: 5px;
+}
+
+@media (max-width:1270px) {
+    .footer__policy {
+        max-width: 170px;
+        padding-left: 0;
+    }
+}
+
+@media (max-width:767px) {
+    .footer__policy {
+        max-width: none;
+    }
+}

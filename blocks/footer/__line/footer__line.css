@@ -1,0 +1,6 @@
+@media (max-width: 767px) {
+    .footer__line { 
+        grid-area: line;
+        border-top: solid 1px black;
+    }
+}

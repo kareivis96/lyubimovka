@@ -1,0 +1,17 @@
+.footer__design {
+    grid-area: design1;
+    display: flex;
+    gap: 4px;
+}
+
+@media (max-width:1270px) {
+    .footer__design {
+        grid-area: design2;
+    }
+}
+
+@media (max-width:767px) {
+    .footer__design {
+        grid-area: design;
+    }
+}
