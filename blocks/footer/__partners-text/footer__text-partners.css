@@ -7,3 +7,10 @@
     margin: 0;
     max-width: 113px;
 }
+
+@media (max-width:767px) {
+    .footer__partners-text {
+        max-width: none;
+        text-align: center;
+    }
+}

@@ -1,0 +1,10 @@
+.footer__partners-text_type_online-translations {
+    visibility: hidden;
+}
+
+@media (max-width:767px) {
+    .footer__partners-text_type_online-translations {
+        visibility: visible;
+        grid-area: partner3-text;
+    }
+}

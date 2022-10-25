@@ -78,7 +78,13 @@
 @import url('../blocks/footer/__lyubimovka-logo/footer__lyubimovka-logo.css');
 @import url('../blocks/footer/__partners/footer__partners.css');
 @import url('../blocks/footer/__partners-logo/footer__partners-logo.css');
+@import url('../blocks/footer/__partners-logo/_type/footer__partners-logo_type_partner1.css');
+@import url('../blocks/footer/__partners-logo/_type/footer__partners-logo_type_partner2.css');
+@import url('../blocks/footer/__partners-logo/_type/footer__partners-logo_type_partner3.css');
+@import url('../blocks/footer/__partners-logo/_type/footer__partners-logo_type_partner4.css');
 @import url('../blocks/footer/__partners-text/footer__text-partners.css');
+@import url('../blocks/footer/__partners-text/_type/footer__partners-text_type_online-translations.css');
+@import url('../blocks/footer/__partners-text/_type/footer__partners-text_type_gen-partners.css');
 @import url('../blocks/footer/__adress/footer__adress.css');
 @import url('../blocks/footer/__adress-full/footer__adress-full.css');
 @import url('../blocks/footer/__adress-name/footer__adress-name.css');
@@ -94,3 +100,5 @@
 @import url('../blocks/footer/__menu-link/footer__menu-link.css');
 @import url('../blocks/footer/__policy/footer__policy.css');
 @import url('../blocks/footer/__students/footer__students.css');
+@import url('../blocks/footer/__line/footer__line.css');
+@import url('../blocks/footer/__link/footer__link.css');

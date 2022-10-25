@@ -15,3 +15,9 @@
         padding-left: 0;
     }
 }
+
+@media (max-width:767px) {
+    .footer__policy {
+        max-width: none;
+    }
+}

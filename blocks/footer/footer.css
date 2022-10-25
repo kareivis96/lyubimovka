@@ -17,16 +17,18 @@
         margin-top: 74px; 
         /* раздел выше наезжает, маргин это заглушка */
         grid-template-columns: 25px 34px 10fr 13fr;
-        grid-template-rows: 8% 9% 16% 24% 22% 3% 6% 5% 7%;
+        grid-template-rows: 8% 9% 16% 20% 25% 2% 2% 6% 5% 7%;
         grid-template-areas: 
         ". . logo ."
         ". . adress adress"
         ". . menu1 menu2"
         ". . menu3 menu3"
-        ". . partners partners"
+        ". partners partners partners"
+        "line line line line"
         ". copyrights copyrights ."
-        ". policy policy . "
+        ". policy policy policy "
         ". design design . "
         ". students students . "
     }
 }
+

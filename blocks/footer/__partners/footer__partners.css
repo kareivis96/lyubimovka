@@ -5,6 +5,15 @@
 
 @media (max-width:767px) {
     .footer__partners {
-        flex-direction: column;
+        display: grid;
+        min-height: 340px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr 1fr 2fr 1fr 1fr;
+        grid-template-areas: 
+        "partner1 partner2"
+        "partner1-text ."
+        "partner3 partner4"
+        "partner3-text ."
+        ". .";
     }
 }

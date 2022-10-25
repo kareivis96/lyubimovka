@@ -1,10 +1,13 @@
 .footer__partners-logo {
     width: 97px;
     height: 36px;
-    padding-left: 30px;
+    margin-left: 30px;
 }
 
 @media (max-width:767px) {
     .footer__partners-logo {
+        width: 117px;
+        height: 46px;
+        margin: auto;
     }
 }
