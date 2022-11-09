@@ -1,0 +1,16 @@
+.youtube-button__subtitle {
+    max-width: 410px;
+    padding: 20px 0 0 0;
+    margin: 0;
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+@media screen and (max-width: 567px) {
+    .youtube-button__subtitle {
+        padding: 16px 24px 0 62px;
+    }
+}

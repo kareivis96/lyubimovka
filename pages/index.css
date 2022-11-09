@@ -43,42 +43,50 @@
 @import url('../blocks/about/__container/about__container.css');
 
 /* стили блока gallery */
-@import url('../blocks/main/gallery/gallery.css');
-@import url('../blocks/main/gallery/__grid/gallery__grid.css');
-@import url('../blocks/main/gallery/__image/gallery__image.css');
-@import url('../blocks/main/gallery/__title/gallery__title.css');
+@import url('../blocks/gallery/gallery.css');
+@import url('../blocks/gallery/__grid/gallery__grid.css');
+@import url('../blocks/gallery/__image/gallery__image.css');
+@import url('../blocks/gallery/__title/gallery__title.css');
 
 /* стили блока afisha-perfomance */
-@import url('../blocks/main/afisha-perfomance/afisha-perfomance.css');
-@import url('../blocks/main/afisha-perfomance/__card/afisha-perfomance__card.css');
-@import url('../blocks/main/afisha-perfomance/__cards/afisha-perfomance__cards.css');
-@import url('../blocks/main/afisha-perfomance/__title/afisha-perfomance__title.css');
-@import url('../blocks/main/afisha-perfomance/__image/afisha-perfomance__image.css');
-@import url('../blocks/main/afisha-perfomance/__when/afisha-perfomance__when.css');
-@import url('../blocks/main/afisha-perfomance/__date/afisha-perfomance__date.css');
-@import url('../blocks/main/afisha-perfomance/__name/afisha-perfomance__name.css');
-@import url('../blocks/main/afisha-perfomance/__who/afisha-perfomance__who.css');
-@import url('../blocks/main/afisha-perfomance/__profession/afisha-perfomance__profession.css');
-@import url('../blocks/main/afisha-perfomance/__read/afisha-perfomance__read.css');
-@import url('../blocks/main/afisha-perfomance/__button/afisha-perfomance__button.css');
-@import url('../blocks/main/afisha-perfomance/__buttons/afisha-perfomance__buttons.css');
-@import url('../blocks/main/afisha-perfomance/__info/afisha-perfomance__info.css');
-@import url('../blocks/main/afisha-perfomance/__link/afisha__perfomance__link.css');
-@import url('../blocks/main/afisha-perfomance/_two-play/afisha-perfomance__two-play.css');
-@import url('../blocks/main/afisha-perfomance/_two-play/afisha-perfomance__cards_two-play.css');
-@import url('../blocks/main/afisha-perfomance/_two-play/afisha-perfomance__card_two-play.css');
-@import url('../blocks/main/afisha-perfomance/_one-play/afisha-perfomance_one-play.css');
-@import url('../blocks/main/afisha-perfomance/_one-play/afisha-perfomance__title_one-play.css');
-@import url('../blocks/main/afisha-perfomance/_one-play/afisha-perfomance__card_one-play.css');
+@import url('../blocks/afisha-perfomance/afisha-perfomance.css');
+@import url('../blocks/afisha-perfomance/__card/afisha-perfomance__card.css');
+@import url('../blocks/afisha-perfomance/__cards/afisha-perfomance__cards.css');
+@import url('../blocks/afisha-perfomance/__title/afisha-perfomance__title.css');
+@import url('../blocks/afisha-perfomance/__image/afisha-perfomance__image.css');
+@import url('../blocks/afisha-perfomance/__when/afisha-perfomance__when.css');
+@import url('../blocks/afisha-perfomance/__date/afisha-perfomance__date.css');
+@import url('../blocks/afisha-perfomance/__name/afisha-perfomance__name.css');
+@import url('../blocks/afisha-perfomance/__who/afisha-perfomance__who.css');
+@import url('../blocks/afisha-perfomance/__profession/afisha-perfomance__profession.css');
+@import url('../blocks/afisha-perfomance/__read/afisha-perfomance__read.css');
+@import url('../blocks/afisha-perfomance/__button/afisha-perfomance__button.css');
+@import url('../blocks/afisha-perfomance/__buttons/afisha-perfomance__buttons.css');
+@import url('../blocks/afisha-perfomance/__info/afisha-perfomance__info.css');
+@import url('../blocks/afisha-perfomance/__link/afisha__perfomance__link.css');
+@import url('../blocks/afisha-perfomance/_two-play/afisha-perfomance__two-play.css');
+@import url('../blocks/afisha-perfomance/_two-play/afisha-perfomance__cards_two-play.css');
+@import url('../blocks/afisha-perfomance/_two-play/afisha-perfomance__card_two-play.css');
+@import url('../blocks/afisha-perfomance/_one-play/afisha-perfomance_one-play.css');
+@import url('../blocks/afisha-perfomance/_one-play/afisha-perfomance__title_one-play.css');
+@import url('../blocks/afisha-perfomance/_one-play/afisha-perfomance__card_one-play.css');
 
 /* стили блока cooperation */
-@import url('../blocks/main/cooperation/cooperation.css');
-@import url('../blocks/main/cooperation/__info/cooperation__info.css');
-@import url('../blocks/main/cooperation/__title/cooperation__title.css');
-@import url('../blocks/main/cooperation/__subtitle/cooperation__subtitle.css');
-@import url('../blocks/main/cooperation/__icon-star/cooperation__icon-star.css');
-@import url('../blocks/main/cooperation/__text/cooperation__text.css');
-@import url('../blocks/main/cooperation/__link/cooperation__link.css');
+@import url('../blocks/cooperation/cooperation.css');
+@import url('../blocks/cooperation/__info/cooperation__info.css');
+@import url('../blocks/cooperation/__title/cooperation__title.css');
+@import url('../blocks/cooperation/__subtitle/cooperation__subtitle.css');
+@import url('../blocks/cooperation/__icon-star/cooperation__icon-star.css');
+@import url('../blocks/cooperation/__text/cooperation__text.css');
+@import url('../blocks/cooperation/__link/cooperation__link.css');
+
+/* стили блока youtube-button */
+@import url('../blocks/youtube-button/youtube-button.css');
+@import url('../blocks/youtube-button/__button/youtube-button__button.css');
+@import url('../blocks/youtube-button/__container/youtube-button__container.css');
+@import url('../blocks/youtube-button/__link/youtube-button__link.css');
+@import url('../blocks/youtube-button/__subtitle/youtube-button__subtitle.css');
+@import url('../blocks/youtube-button/__title/youtube-button__title.css');
 
 /* стили для блока title */
 @import url('../blocks/title/title.css');
